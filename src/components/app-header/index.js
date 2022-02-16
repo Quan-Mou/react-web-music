@@ -29,7 +29,6 @@ export default function Header() {
                 return (
                   <div key={item.title} className='selector-item'>
                     {NavList(item, index)}
-
                   </div>
                 )
               })
